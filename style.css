@@ -1,0 +1,294 @@
+
+
+
+/* HEADER START */
+
+header {
+    background: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+header>a {
+    color: white;
+    display: inline;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+
+header>a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER END */
+
+/* NAVBAR START */
+.navbar {
+    padding: 10px;
+    background: white;
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;   
+}
+
+.navbar .container-nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span {
+    display: inline-block;
+}
+
+/* NAVBAR END */
+
+/* MAIN START */
+
+.container-main {
+    padding:70px;
+    background-color: lightgrey;
+}
+
+.button {
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+/* MAIN END */
+
+
+.Trending {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#pop-rn {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.trending-list {
+    list-style-type: none;
+}
+
+.trending-list li {
+    display: inline-block;
+}
+
+.button-2 {
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(122, 122, 122);
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-2:hover {
+    border-color: black;
+}
+
+.articles {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.articles>span {
+    width: 385px;
+    height: 177px;
+    background-color: rgb(235, 235, 235);
+}
+
+/* Half-bar Start */
+
+.half-bar {
+    
+}
+
+.half-bar ul {
+    list-style-type: none;
+    text-align: left;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-left: 0px;
+    line-height: 30px;
+}
+
+.half-bar li {
+    display: inline-block;
+    padding: 5px;
+}
+
+
+/* PRODUCT ROW START */
+.Trending>span {
+    margin: 5px;
+}
+
+.Trending>span:hover {
+    border: 1px solid black;
+}
+
+.row {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.row-name {
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.row-sub {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.new {
+    text-align: left;
+    font-size: 10px ;
+}
+
+/* PRODUCT ROW END */
+
+/* GRID START */
+
+.grid-container {
+    display: grid;
+    grid: 10px / auto auto auto auto;
+    grid-gap: 10px;
+    padding:10px;
+    grid-template-rows: 700px 700px;
+    grid-template-columns: 390px 390px 390px 390px;
+}
+
+.grid-container>div {
+    text-align: left;
+}
+
+.grid-container>div>img  {
+    max-width: 382px;
+    max-height: 500px;
+}
+
+
+/* ASIDE START */
+.story {
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.story>span {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 110px;
+    margin-right: 110px;
+    width: 30%;
+}
+
+
+
+/* Footer start */
+
+.bonus {
+    text-align: center;
+    background-color: yellow;
+    height: 150px;
+}
+
+.bonus span {
+    padding-top: 10px;
+}
+
+.bonus>span>p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.button2  {
+    width: 150px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin: 5px;
+}
+
+.button2:hover {
+    color:rgb(122, 122, 122);
+}
+
+.links {
+    text-align: center;
+    
+}
+
+.links>div {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.links ul li {
+    padding-top: 8px;
+    
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.end {
+    text-align: center;
+    height: 150px;
+    background-color: rgb(88, 88, 88);
+}
+
+.end span {
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+
+.end>span>a {
+    color:rgb(231, 231, 231);
+    text-decoration: none;
+}
